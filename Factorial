@@ -1,0 +1,9 @@
+const Factor = function (a){
+if (a===1 || a===0){
+	return 1;}
+return a * Factor(a-1);
+};
+const  Factorial = function(a){
+console.log(Factor(a));
+};
+Factorial(5);
